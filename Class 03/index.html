@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Registration Form</title>
+</head>
+
+<body>
+
+    <h4><b>FILL THE FOLLOWING TO COMPLETE THE PROCEDURE</b></h4>
+
+    <form action="http://www.example.com/login.php">
+        <fieldset>
+            <legend> <b> Registration Form</b></legend>
+            <p><label for="name">Complete Name:</label>
+                <input required id="name" type="text" name="name" size="30" maxlength="30" /><br />
+            </p>
+            <p><label for="username">Username:</label>
+                <input required id="username" type="text" name="username" size="36" maxlength="20" /><br />
+            </p>
+            <p><label for="password">Password:</label>
+                <input required id="password" type="password" size="37" minlength="6" maxlength="15">
+            </p>
+            <p><label for="date">Date Of Birth:</label>
+                <input required id="date" type="date" />
+            </p>
+
+
+            <form>
+                <p>E-mail:</p>
+                <input type="email" name="email" size="47" />
+            </form><br /><br />
+            <p>
+                <label for="url">Your Favourite Website:</label>
+                <input required type="url" size="24">
+            </p><br /><br />
+            <textarea required name="comments" cols="49" rows="5">Comments...</textarea>
+            <p>
+                Select Your Gender:<br />
+                Male: <input type="radio" name="Gender" value="male"><br />
+                Female: <input type="radio" name="Gender" value="female"><br />
+                Others: <input type="radio" name="Gender" value="others"><br />
+
+
+            </p>
+
+            <p aria-required="true">
+                Select your multiple favourite fruits:<br />
+                Apple:<input type="checkbox" value="apple" name="Answer"><br />
+                Mango:<input type="checkbox" value="mango" name="Answer"><br />
+                Orange:<input type="checkbox" value="orange" name="Answer"><br />
+                Grapes:<input type="checkbox" value="grapes" name="Answer"><br />
+            </p>
+
+            <p aria-required="true">
+                Select the languages you understand:<br />
+                <select required name="Languages" multiple>
+                    <option selected value="English">English</option>
+                    <option value="Urdu">Urdu</option>
+                    <option value="Persian">Persian</option>
+                    <option value="Russian">Russian</option>
+                    <option value="French">French</option>
+                </select>
+            </p>
+
+            <p>
+                Upload Your Image <br />
+                <input required type="file" name="">
+            </p>
+
+
+
+
+
+            </p>
+            <textarea required name="" cols="48" rows="5">Your Suggestions</textarea>
+            <p>
+                <p>
+                    Submit Your Form
+                    <input type="submit" value="Submit">
+                </p>
+        </fieldset>
+
+</body>
+
+</html>
