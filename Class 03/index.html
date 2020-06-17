@@ -2,12 +2,20 @@
 <html lang="en">
 
 <head>
+    <style>
+        .content {
+            max-width: 800px;
+            margin: auto;
+            padding: 1cm;
+        }
+    </style>
     <title>Registration Form</title>
 </head>
 
-<body>
+<body class="content">
 
-    <h4><b>FILL THE FOLLOWING TO COMPLETE THE PROCEDURE</b></h4>
+    <h1 style="font-size: 280%; text-align: center;">REGISTRATION FORM</h1>
+    <h3 style="font-size: 150%; text-align: center;"><b>FILL THE FOLLOWING TO COMPLETE THE PROCEDURE</b></h3>
 
     <form action="http://www.example.com/login.php">
         <fieldset>
@@ -27,14 +35,14 @@
 
 
             <form>
-                <p>E-mail:</p>
-                <input type="email" name="email" size="47" />
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" size="40" />
             </form><br /><br />
             <p>
                 <label for="url">Your Favourite Website:</label>
-                <input required type="url" size="24">
+                <input required type="url" id="url" size="24">
             </p><br /><br />
-            <textarea required name="comments" cols="49" rows="5">Comments...</textarea>
+            <textarea required name="comments" cols="49" rows="5" placeholder="Comments..."></textarea>
             <p>
                 Select Your Gender:<br />
                 Male: <input type="radio" name="Gender" value="male"><br />
@@ -73,10 +81,10 @@
 
 
             </p>
-            <textarea required name="" cols="48" rows="5">Your Suggestions</textarea>
+            <textarea required name="" cols="48" rows="5" placeholder="Your Suggestions"></textarea>
             <p>
                 <p>
-                    Submit Your Form
+                    SUBMIT YOUR FORM
                     <input type="submit" value="Submit">
                 </p>
         </fieldset>
