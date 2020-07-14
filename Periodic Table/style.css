@@ -1,0 +1,73 @@
+*{
+    font-weight: bold;
+}
+.th1{
+    font-size: 600%;
+}
+table{            
+    width: 100%;
+}
+table td{
+    width: 30px;
+    height: 30px;
+    margin: 1px;
+    padding: 3px;
+    text-align: center;
+    border: 1px solid transparent;           
+}
+table thead th {        
+background-color: yellow;
+font-size: 60px;
+}
+/* .height {
+    height:2px;
+} */
+footer{
+    color: #ffffff;
+}
+
+    .one {
+        background:#f99761;                
+    }
+
+    .two {
+        background:#e5e6f9;
+    }
+
+    .three {
+        background:#dda0dc;
+    }
+
+    .four {
+        background:#90c7ff;
+    }
+
+    .five {
+        background: #c79813;
+    }
+
+    .six {
+        background: #fe9a68;
+    }
+
+    .seven {
+        background: #ecdca9;
+    }
+
+    .eight {
+        background: #ccec86;
+    }
+
+    .nine {
+        background: #fdf28d;
+    }
+
+    .ten {
+        background: #c7cfd4;
+    }    
+    .eleven {
+        background: #9892e6ca;
+    } 
+    .twelve {
+        background: #c4ecc7;
+    }
