@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="logo">
+        <img src="imgs/Saylani-logo.png" alt="Saylani-Logo">
+    </div>
+    <h2>student registration form</h2>
+
+    <form class="form">
+        <table>
+            <tr>
+                <td class="col1">FIRST NAME</td>
+                <td>
+                    <input type="text" name="first_name" size="10" maxlength="15" placeholder="Enter first name">
+                    (maximum 30 characters a-z and A-Z)
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col1">LAST NAME</td>
+                <td>
+                    <input type="text" name="last_name" size="10" maxlength="15" placeholder="Enter last name">
+                    (maximum 30 characters a-z and A-Z)
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col1">DATE OF BIRTH</td>
+                <td>
+                    <input type="date" name="date_of_birth" id="date">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col1">EMAIL ID</td>
+                <td>
+                    <input type="email" name="email" placeholder="Enter your email address">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col1">MOBILE NUMBER</td>
+                <td>
+                    <input type="number" name="mobile_number" id="mobile_number" maxlength="10"
+                        placeholder="Enter mobile number">
+                    (10-digit number)
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col1">GENDER</td>
+                <td>
+                    Male <input type="radio" name="gender" value="Male">&nbsp;&nbsp;
+                    Female <input type="radio" name="gender" id="Female">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col1">ADDRESS</td>
+                <td>
+                    <textarea name="address" id="" cols="40" rows="5" placeholder="Enter your address"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col1">CITY</td>
+                <td>
+                    <input type="text" name="city" maxlength="30" placeholder="Enter your city">
+                    (maximum 30 characters a-z and A-Z)
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col1">PIN CODE</td>
+                <td>
+                    <input type="number" name="pin_code" maxlength="6" placeholder="Enter pin-code">
+                    (6-digit number)
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col1">STATE</td>
+                <td>
+                    <input type="text" name="state" maxlength="30" placeholder="Enter your state">
+                    (maximum 30 characters a-z and A-Z)
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col1">COUNTRY</td>
+                <td>
+                    <input type="text" name="country" maxlength="20" placeholder="Enter your country">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col1">HOBBIES</td>
+                <td>
+                    Drawing <input type="checkbox" name="hobbies" value="drawing">
+                    Singing <input type="checkbox" name="hobbies" value="singing">
+                    Daning <input type="checkbox" name="hobbies" value="dancing">
+                    Sketching <input type="checkbox" name="hobbies" value="sketching">
+                    Others <input type="checkbox" name="hobbies" value="others">
+                    <input type="text" name="hobbies">
+                </td>
+            </tr>
+
+            <tr rowspan="5">
+                <td class="col1">QUALIFICATION</td>
+                <td>
+                    <table>
+                        <tr>
+                            <th>S.No.</th>
+                            <th>Examination</th>
+                            <th>Board</th>
+                            <th>Percentage</th>
+                            <th>Year of Passing</th>
+                        </tr>
+
+                        <tr>
+                            <td>1</td>
+                            <td>Class X</td>
+                            <td>
+                                <input type="text" name="board">
+                            </td>
+                            <td>
+                                <input type="number" name="percentage" maxlength="5">
+                            </td>
+                            <td>
+                                <input type="number" name="pass_year" maxlength="4">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>Class XII</td>
+                            <td>
+                                <input type="text" name="board">
+                            </td>
+                            <td>
+                                <input type="number" name="percentage" maxlength="5">
+                            </td>
+                            <td>
+                                <input type="number" name="pass_year" maxlength="4">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>3</td>
+                            <td>Graduation</td>
+                            <td>
+                                <input type="text" name="board">
+                            </td>
+                            <td>
+                                <input type="number" name="percentage" maxlength="5">
+                            </td>
+                            <td>
+                                <input type="number" name="pass_year" maxlength="4">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>4</td>
+                            <td>Masters</td>
+                            <td>
+                                <input type="text" name="board">
+                            </td>
+                            <td>
+                                <input type="number" name="percentage" maxlength="5">
+                            </td>
+                            <td>
+                                <input type="number" name="pass_year" maxlength="4">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td id="align">(10 characters maximum)</td>
+                            <td id="align">(upto 2 decimal)</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col1">COURSES APPLIED FOR</td>
+                <td>
+                    BCA <input type="radio" name="courses_selection" value="BCA">&nbsp;&nbsp;
+                    BCOM <input type="radio" name="courses_selection" value="BCOM">&nbsp;&nbsp;
+                    BSC <input type="radio" name="courses_selection" value="BSC">&nbsp;&nbsp;
+                    BA <input type="radio" name="courses_selection" value="BA">
+                </td>
+            </tr>
+        </table>
+
+        <div id="button">
+            <button type="submit" name="form"><b><a href="ack.html">Submit</a></b></button>
+            <button type="reset" name="form"><b id="rst">Reset</b></button>
+        </div>
+    </form>
+
+    <footer>
+        <em><strong>
+                <center>Copyrights Reserved &copy; Syed Meesam Turab Bukhari</center>
+        </strong></em>
+    </footer>
+</body>
+</html>

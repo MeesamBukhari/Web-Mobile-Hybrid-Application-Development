@@ -1,0 +1,54 @@
+#logo{
+    width: 430px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    text-align: center;
+    color: #7069c9;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.form{
+    background-color: #6b5acd;
+    width: 950px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    color: white;
+}
+.col1{
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    vertical-align: top;
+}
+input{
+    font-size: 1em;
+    padding: 10px;
+}
+a{
+   text-decoration: none;
+}
+a:active{
+    color: none;
+}
+#align{
+    text-align: center;
+}
+#button{
+    text-align: center;
+    margin-top: 15px;
+}
+#rst{
+    color: rgb(84, 0, 121);
+}
+footer{
+    font-size: 15px;
+}

@@ -1,0 +1,15 @@
+#wrapper{
+    text-align: center;
+    width: 850px;
+    margin: 0 auto;
+}
+.img{
+    width: 650px;
+    height: 400;
+}
+h2{
+    color: #64028b
+}
+a{
+    text-decoration: none;
+}
