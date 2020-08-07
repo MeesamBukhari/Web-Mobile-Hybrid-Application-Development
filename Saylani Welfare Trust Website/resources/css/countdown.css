@@ -1,0 +1,6 @@
+.countdown{font-family: arial; text-transform: uppercase;}
+.countdown > div{display: inline-block;}
+.countdown > div > span{display: block; text-align: center;}
+.countdown-container{margin:0 3px;}
+.countdown-container .countdown-heading{font-size: 20px; margin: 3px; color: #666}
+.countdown-container .countdown-value{font-size: 50px; background: #6273c9; padding:10px; color:#fff; text-shadow: 2px 2px 2px rgba(0,0,0,0.4)}

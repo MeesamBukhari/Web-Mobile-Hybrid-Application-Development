@@ -1,0 +1,25 @@
+.play-icon {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    left: 42%;
+    position: absolute;
+    top: 35%;
+}
+.play-icon-img {
+    background: url(./images/khuddam/video-play-icon.png) no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    outline: none;
+}
