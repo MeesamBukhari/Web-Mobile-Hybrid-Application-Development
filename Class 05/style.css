@@ -1,0 +1,25 @@
+/* @font-face{
+    font-family: Oswald;
+    src: url('Oswald-Regular.ttf');
+} */
+
+*{
+    font-family: Fondamento;
+}
+
+h1{
+    color: red;
+    font-style: normal;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+p{
+    text-transform: capitalize;
+    line-height: 1.75em;
+    word-spacing: 1em;
+    text-align: justify;
+    text-indent: 3em;
+}
