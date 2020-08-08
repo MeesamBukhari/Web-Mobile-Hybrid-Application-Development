@@ -1,0 +1,116 @@
+p.change:first-letter {
+    font-size: 30px;
+    background-color: #eeeeee;
+    color: #006666;
+    text-shadow: 1px 1px 30px #000000;
+}
+
+p.change:first-line {
+    font-weight: bold;
+}
+
+a.format:link {
+    color: deeppink;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:format:visited {
+    color: darkcyan;
+    text-decoration: underline;
+}
+
+#goole:hover {
+    color: gold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+input:hover {
+    background-color: brown;
+}
+
+input:focus {
+    background-color: blueviolet;
+}
+
+button:focus {
+    background-color: chartreuse;
+}
+
+button:hover {
+    background-color: cyan;
+}
+/* .main {
+    border: 2px solid darkcyan;
+    width: 320px;
+    min-height: 200px;
+    max-height: 250px;
+    overflow: auto;
+} */
+                        
+img {
+    min-width: 300px;
+    max-width: 700px;
+}
+
+.main {
+    border: 10px dashed red;
+    padding: 10px;
+    margin: 0 auto;
+    width: 50%;
+    /* display: inline; */
+}
+/* .main1 {
+    border: 10px dashed red;
+    padding: 10px;
+    margin: 0 auto;
+    width: 50%;
+} */
+                        
+.li {
+    display: inline-block;
+    color: black;
+    background-color: rgb(75, 199, 199);
+    height: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+
+li>a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.hide {
+    visibility: visible;
+}
+
+h1 {
+    color: aqua;
+    text-shadow: 3px 2px 1px gray;
+    text-align: center;
+}
+
+div {
+    border: 2px solid crimson;
+    border-radius: 25px;
+    box-shadow: 5px 5px 3px gray;
+}
+
+img {
+    inline-size: 550px;
+    padding: 5px;
+    margin: 10px;
+    align-content: center;
+    border: 5px double gray;
+    border-radius: 500px;
+}
+
+ul {
+    list-style-type: decimal-leading-zero;
+    list-style-image: url();
+    list-style-position: inside;
+    list-style: inside square;
+}
