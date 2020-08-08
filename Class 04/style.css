@@ -1,0 +1,38 @@
+body{
+    height:auto;
+    width: 900px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h1{
+    text-align: center;
+}
+
+h1>span{
+    color: #008080;
+    opacity: 1;
+    background-color: rgb(196, 204, 159);
+}
+
+h2 span{
+    color: rgba(78, 103, 185, 0.9);
+    background-color: aqua;
+}
+
+.bio{
+    color: rgb(66, 87, 151);
+    background-color: rgb(171, 233, 198);
+}
+
+
+
+
+.bg-img{
+    background-image: url(https://www.google.com/search?q=landscape+background+images&rlz=1C1HLDY_enPK905PK905&sxsrf=ALeKk008Z-H_71Ame0Xj7i1Wyl9sriZ7IQ:1594469060294&tbm=isch&source=iu&ictx=1&fir=Tv-cP3WW7oNI1M%252CCXZ16gDfqs7XjM%252C_&vet=1&usg=AI4_-kQGFcpIyy5G6z3HJgmA2bpfzKt3iA&sa=X&ved=2ahUKEwicocaPlMXqAhWjiOAKHQh2A8kQ9QEwBnoECAoQEA#imgrc=Tv-cP3WW7oNI1M);
+    background-color: #cccccc;
+}
+
+footer{
+    text-align: center;
+}
