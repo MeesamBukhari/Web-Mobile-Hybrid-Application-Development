@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .content {
+            max-width: 800px;
+            margin: auto;
+            padding: 1cm;
+        }
+    </style>
+    <title>Registration Form</title>
+</head>
+
+<body class="content">
+
+    <h1 style="font-size: 280%; text-align: center;">REGISTRATION FORM</h1>
+    <h3 style="font-size: 150%; text-align: center;"><b>FILL THE FOLLOWING TO COMPLETE THE PROCEDURE</b></h3>
+
+    <form action="http://www.example.com/login.php">
+        <fieldset>
+            <legend> <b> Registration Form</b></legend>
+            <p><label for="name">Complete Name:</label>
+                <input required id="name" type="text" name="name" size="30" maxlength="30" /><br />
+            </p>
+            <p><label for="username">Username:</label>
+                <input required id="username" type="text" name="username" size="36" maxlength="20" /><br />
+            </p>
+            <p><label for="password">Password:</label>
+                <input required id="password" type="password" size="37" minlength="6" maxlength="15">
+            </p>
+            <p><label for="date">Date Of Birth:</label>
+                <input required id="date" type="date" />
+            </p>
+
+
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" size="40" />
+            </form><br /><br />
+            <p>
+                <label for="url">Your Favourite Website:</label>
+                <input required type="url" id="url" size="24">
+            </p><br /><br />
+            <textarea required name="comments" cols="49" rows="5" placeholder="Comments..."></textarea>
+            <p>
+                Select Your Gender:<br />
+                Male: <input type="radio" name="Gender" value="male"><br />
+                Female: <input type="radio" name="Gender" value="female"><br />
+                Others: <input type="radio" name="Gender" value="others"><br />
+
+
+            </p>
+
+            <p aria-required="true">
+                Select your multiple favourite fruits:<br />
+                Apple:<input type="checkbox" value="apple" name="Answer"><br />
+                Mango:<input type="checkbox" value="mango" name="Answer"><br />
+                Orange:<input type="checkbox" value="orange" name="Answer"><br />
+                Grapes:<input type="checkbox" value="grapes" name="Answer"><br />
+            </p>
+
+            <p aria-required="true">
+                Select the languages you understand:<br />
+                <select required name="Languages" multiple>
+                    <option selected value="English">English</option>
+                    <option value="Urdu">Urdu</option>
+                    <option value="Persian">Persian</option>
+                    <option value="Russian">Russian</option>
+                    <option value="French">French</option>
+                </select>
+            </p>
+
+            <p>
+                Upload Your Image <br />
+                <input required type="file" name="">
+            </p>
+
+
+
+
+
+            </p>
+            <textarea required name="" cols="48" rows="5" placeholder="Your Suggestions"></textarea>
+            <p>
+                <p>
+                    SUBMIT YOUR FORM
+                    <input type="submit" value="Submit">
+                </p>
+        </fieldset>
+
+</body>
+
+</html>
