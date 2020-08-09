@@ -134,3 +134,14 @@
 // document.write(name[0])
 // document.write(name[1])
 // document.write(name[2])
+
+
+
+// var name = "meesam";
+// name = name.toUpperCase();
+// console.log(name);
+
+
+
+// var name = "Meesam Turab";
+// console.log(name.indexOf("T"))
